@@ -62,4 +62,13 @@
   height: 35%;
 }
 
+.nav-link.active {
+  border-bottom-color: #FA5959 !important;
+}
+
+.nav-underline .nav-item .nav-link:hover {
+  color: #FA5959 !important;
+  border-bottom-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
