@@ -1,16 +1,6 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-.navbar-toggler-icon[aria-expanded="true"] {
-    background-image: url(img/icon-close.svg) !important;
-}
-.navbar-toggler-icon {
-    background-image: url(img/icon-hamburger.svg) !important;
-}
-.navbar {
-    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0) !important;
-    --bs-navbar-toggler-focus-width: 0rem !important;
-}
 .bg-primary2 {
     background-color: $primary !important;
 }
