@@ -1,0 +1,53 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.navbar-toggler-icon[aria-expanded="true"] {
+    background-image: url(img/icon-close.svg) !important;
+}
+.navbar-toggler-icon {
+    background-image: url(img/icon-hamburger.svg) !important;
+}
+.navbar {
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0) !important;
+    --bs-navbar-toggler-focus-width: 0rem !important;
+}
+.bg-primary2 {
+    background-color: $primary !important;
+}
+.btn-primary {
+    background-color: $primary !important;
+    border-color: $primary !important;
+}
+.btn-primary:hover {
+    background-color: #0423eb00 !important;
+    color: $primary !important;
+}
+.btn-danger {
+    background-color: $secondary !important;
+}
+.btn-danger:hover {
+    background-color: #fff !important;
+    color: $secondary !important;
+}
+.btn-light {
+    background-color: #fff !important;
+    border-color: #fff !important;   
+}
+.btn-light:hover {
+    color: $secondary !important;
+    border-color: #fff !important;
+}
+.btn-custom {
+    background-color: #e5e5e5 !important;
+}
+.btn-custom:hover {
+    color: #000 !important;
+    border-color: #000 !important;
+    background-color: #d3d3d300 !important;
+}
+.ctop-50 {
+    top: 40%;
+}
+.ch-50 {
+    height: 35%;
+}

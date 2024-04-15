@@ -1,0 +1,65 @@
+.navbar-toggler-icon[aria-expanded=true] {
+  background-image: url(img/icon-close.svg) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(img/icon-hamburger.svg) !important;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0) !important;
+  --bs-navbar-toggler-focus-width: 0rem !important;
+}
+
+.bg-primary2 {
+  background-color: #5265E1 !important;
+}
+
+.btn-primary {
+  background-color: #5265E1 !important;
+  border-color: #5265E1 !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(4, 35, 235, 0) !important;
+  color: #5265E1 !important;
+}
+
+.btn-danger {
+  background-color: #FA5959 !important;
+}
+
+.btn-danger:hover {
+  background-color: #fff !important;
+  color: #FA5959 !important;
+}
+
+.btn-light {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-light:hover {
+  color: #FA5959 !important;
+  border-color: #fff !important;
+}
+
+.btn-custom {
+  background-color: #e5e5e5 !important;
+}
+
+.btn-custom:hover {
+  color: #000 !important;
+  border-color: #000 !important;
+  background-color: rgba(211, 211, 211, 0) !important;
+}
+
+.ctop-50 {
+  top: 40%;
+}
+
+.ch-50 {
+  height: 35%;
+}
+
+/*# sourceMappingURL=main.css.map */
