@@ -38,7 +38,7 @@ $secondary: #FA5959;
     height: 35%;
 }
 .nav-link.active {
-    border-bottom-color: $secondary;
+    border-bottom-color: $secondary !important;
 }
 .nav-underline .nav-item .nav-link:hover {
     color: $secondary;
@@ -60,7 +60,7 @@ $secondary: #FA5959;
     background-color: #242946;
 }
 a:hover {
-    color: $secondary;
+    color: $secondary !important;
 }
 .social:hover {
     filter: invert(56%) sepia(38%) saturate(3482%) hue-rotate(325deg) brightness(99%) contrast(97%);

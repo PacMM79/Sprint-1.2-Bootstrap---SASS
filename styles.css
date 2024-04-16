@@ -11845,7 +11845,7 @@ textarea.form-control-lg {
   }
 }
 .btn-primary:hover {
-  background-color: rgba(4, 35, 235, 0);
+  background-color: transparent;
   color: #5265E1;
 }
 
@@ -11876,7 +11876,7 @@ textarea.form-control-lg {
 .btn-custom:hover {
   color: #000;
   border-color: #000;
-  background-color: rgba(211, 211, 211, 0);
+  background-color: transparent;
 }
 
 .ctop-50 {
@@ -11927,10 +11927,6 @@ a:hover {
 .navbar {
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
   --bs-navbar-toggler-focus-width: 0rem;
-}
-
-.bg-primary2 {
-  background-color: #5265E1;
 }
 
 /*# sourceMappingURL=styles.css.map */
