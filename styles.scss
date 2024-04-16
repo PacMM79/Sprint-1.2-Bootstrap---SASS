@@ -1,0 +1,74 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: $primary;
+}
+.btn-danger {
+    background-color: $secondary;
+}
+.btn-danger:hover {
+    background-color: #fff;
+    color: $secondary;
+}
+.btn-light {
+    background-color: #fff;
+    border-color: #fff;   
+}
+.btn-light:hover {
+    color: $secondary;
+    border-color: #fff;
+    background-color: #fff;
+}
+.btn-custom {
+    background-color: #e5e5e5;
+}
+.btn-custom:hover {
+    color: #000;
+    border-color: #000;
+    background-color: transparent;
+}
+.ctop-50 {
+    top: 40%;
+}
+.ch-50 {
+    height: 35%;
+}
+.nav-link.active {
+    border-bottom-color: $secondary;
+}
+.nav-underline .nav-item .nav-link:hover {
+    color: $secondary;
+    border-bottom-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+.accordion {
+--bs-accordion-btn-focus-box-shadow: unset;
+}
+.accordion-button:hover {
+    color: $secondary;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: invert(56%) sepia(38%) saturate(3482%) hue-rotate(325deg) brightness(99%) contrast(97%);
+}
+.bg-foot-end {
+    background-color: #242946;
+}
+a:hover {
+    color: $secondary;
+}
+.social:hover {
+    filter: invert(56%) sepia(38%) saturate(3482%) hue-rotate(325deg) brightness(99%) contrast(97%);
+}
+.navbar {
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
+    --bs-navbar-toggler-focus-width: 0rem;
+}
+.bg-primary2 {
+    background-color: $primary;
+  }
